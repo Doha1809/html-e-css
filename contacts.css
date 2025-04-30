@@ -1,0 +1,29 @@
+.contacts-section{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.contacts-item h2{
+    margin-bottom: 3rem ;
+}
+.full-width-img {
+    height: 300px;
+}
+
+@media (max-width: 768px) {
+    .contacts-section{
+        display: flex;
+        flex-direction: column;
+        text-align: center;  /*diferenza tra text-align e align-items che align items allinea i contenitori alifn-text le scritte*/
+        
+    }
+    .contacts-item h2{
+        margin-bottom: 0;
+
+    }
+    .contacts-item h4{
+        margin-bottom: 2rem;
+
+    }
+}

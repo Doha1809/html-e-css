@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "../camere"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "es.1html_e_css"
+	}
+}
